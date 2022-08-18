@@ -1,56 +1,13 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
-
-/* Declaring Variables*/
-
-:root{
-
-    /* Color Variables*/
-    --primary-color : #000;
-    --secondary-color : rgb(255, 255, 255);
-    --third-color : #000;
-
-
-    /* Font Declaring */
-    --font-size-primary:30px;
-    --font-size-secondary:30px;
-
-    /*Padding*/
-
-    --text-box:30px
-
-}
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-body{
-    max-width: 1280px;
-}
-
 .BasicInform{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.email{
+    grid-column: 1/3;
 }
 
 .basicInputs{
     width: 40%;
-}
-
-label{
-    font-size:30px;
-    font-weight: medium;
-}
-
-input{
-    border: black 3px solid;
-    padding-left: var(--text-box);
-    width: 500px;
-    height:78px;
-    font-size: 25px;
-    font-weight: 600;
-    min-width: 100%;
 }

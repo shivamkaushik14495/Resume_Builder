@@ -1,0 +1,24 @@
+.Addres_Inform{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+/* .email{
+    grid-column: 1/3;
+} */
+
+.Addres_Inputs{
+    width: 40%;
+}
+
+#Street-Address{
+    grid-column: 1/3;
+}
+#Street-Address-input{
+    min-width: 1150px;
+    max-width: 1150px;
+    min-height: 150px;
+    width: 1150px;
+    height: 150px;
+}

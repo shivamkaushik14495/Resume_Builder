@@ -1,9 +1,11 @@
 import React from 'react'
 import "./Css/BasicInfo.css"
+import "../Components/Css/Common.css"
 
 const BasicInfo = () => {
   return (
 <div className='BasicInfo'>
+    <h3>Basic Information</h3>
     <form className='BasicInform'>
     <div className='firstName basicInputs'>
         <label className='firstName'>First Name
