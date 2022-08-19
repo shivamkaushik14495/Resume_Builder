@@ -49,9 +49,15 @@ textarea{
 input , textarea{
     margin: 10px 0 10px 0;
     border: black 3px solid;
-    padding-left: var(--text-box);
+    padding: 0 var(--text-box);
     width: 500px;
     height:78px;
     font-size: 25px;
     font-weight: 600;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }

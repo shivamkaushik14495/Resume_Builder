@@ -1,0 +1,17 @@
+button{
+    margin: auto;
+}
+
+.submit{
+    text-align: center;
+    padding: 35px 160px;
+    font-size: 30px;
+    background-color: black;
+    border: none;
+    color: white;
+    margin: 50px 0;
+    font-weight: bold;
+}
+.button_div{
+    text-align: center;
+}
