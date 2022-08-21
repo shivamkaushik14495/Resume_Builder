@@ -56,6 +56,10 @@ input , textarea{
     font-weight: 600;
 }
 
+textarea{
+    padding: 20px var(--text-box);
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;

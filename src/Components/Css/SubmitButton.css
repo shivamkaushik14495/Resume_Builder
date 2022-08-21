@@ -7,11 +7,23 @@ button{
     padding: 35px 160px;
     font-size: 30px;
     background-color: black;
-    border: none;
+    border: black solid 6px;
     color: white;
     margin: 50px 0;
     font-weight: bold;
 }
 .button_div{
     text-align: center;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+button:active{
+    background-color: white;
+    color: black;
+    transform: scale(.9);
+    transition: .1s;
 }
